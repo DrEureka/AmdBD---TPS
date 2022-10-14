@@ -1,0 +1,9 @@
+.usuario-login-fondo {
+    background-image: url('../img/login.jpg');
+    background-repeat: no-repeat;    
+    background-size: cover;
+}
+
+.usuario-login-container{
+    margin-top: 10%;
+}
