@@ -26,6 +26,9 @@
            <li class="nav-item">
                <a class="nav-link" href="./administrador/index.php">Login CRUD</a>
            </li>
+           <li class="nav-item">
+               <a class="nav-link" href="./usuario/index.php">Login Usuario</a>
+           </li>
        </ul>
    </nav>
    <div class="container">
