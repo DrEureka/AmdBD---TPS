@@ -7,7 +7,10 @@
         <hr class="my-2">
         <p>Sistema CRUD - SharkDb</p>
         <p class="lead">
-            <a class="btn btn-primary btn-lg" href="seccion/AdmDesign.php" role="button">Administrador de diseños</a>
+            <a class="btn btn-primary btn-lg" href="perfil.php" role="button">Perfil</a>
+        </p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="rutinas.php" role="button">Rutinas</a>
         </p>
     </div>
 
