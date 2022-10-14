@@ -23,7 +23,7 @@ if($_POST){
     <link rel="stylesheet" href="/css/usuario.css">
   </head>
 
-  <body class="usuario-fondo">     
+  <body class="usuario-fondo" id="usuarioBody">     
     <div class="usuario-container d-flex justify-content-center">
         <div class="card usuario-transparencia">
             <div class="card-header">

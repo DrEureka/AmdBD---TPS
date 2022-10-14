@@ -11,3 +11,11 @@
     </div>
 </div>
 <?php include('template/footer.php') ?>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {                  
+        let body = document.getElementById('usuarioBody');
+        body.classList.remove("usuario-fondo");
+        body.classList.add("usuario-rutina");
+    }, false);
+</script>

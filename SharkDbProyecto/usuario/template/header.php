@@ -25,7 +25,7 @@ else{
   <link rel="stylesheet" href="/css/usuario.css">
 </head>
 
-<body class="usuario-fondo">
+<body class="usuario-fondo" id="usuarioBody">
   <?php $url = "http://" . $_SERVER['HTTP_HOST']. "" ?>
 
   <nav class="navbar navbar-expand navbar-light bg-light">
