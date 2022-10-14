@@ -1,9 +1,15 @@
-.usuario-login-fondo {
+.usuario-fondo {
     background-image: url('../img/login.jpg');
     background-repeat: no-repeat;    
     background-size: cover;
 }
 
-.usuario-login-container{
+.usuario-container {
     margin-top: 10%;
+}
+
+.usuario-transparencia {
+    opacity: 0.85;
+    background-color: black;
+    color : white;
 }

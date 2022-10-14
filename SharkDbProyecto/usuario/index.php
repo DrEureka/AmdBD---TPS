@@ -7,7 +7,7 @@ if($_POST){
         $_SESSION['nombreUsuario']="user";
         header('Location:Inicio.php');
     }else{
-        $mensaje="Error: el usuario es user y pass user";
+        $mensaje='Upps! Intenta Usuario y Contraseña con "user"';
     }
 }
 ?>
@@ -20,15 +20,14 @@ if($_POST){
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/usuario.css">
+    <link rel="stylesheet" href="/css/usuario.css">
   </head>
 
-  <body class="usuario-login-fondo"> 
-    <span class="clearfix"></span>
-    <div class="usuario-login-container d-flex justify-content-center">
-        <div class="card col-3">
+  <body class="usuario-fondo">     
+    <div class="usuario-container d-flex justify-content-center">
+        <div class="card usuario-transparencia">
             <div class="card-header">
-                Iniciar Sesion
+                <strong><h3>Iniciar Sesion</h3></strong>
             </div>
 
             <div class="card-body">
@@ -55,49 +54,3 @@ if($_POST){
 
   </body>
 </html>
-  
-  <!--
-  <div class="container">
-      <div class="row">
-          <div class="col-md-4">
-              
-          </div>
-          <div class="col-md-4">
-          <br><br><br><br>
-          <div class="card">
-              <div class="card-header">
-                Login (Usuario=user, Contraseña user)
-              </div>
-              <div class="card-body">
-              <?php //if(isset($mensaje)){?>
-<div class="alert alert-danger" role="alert">
-   <?php //echo $mensaje; ?>
-</div>
-   <?php  //}?>
-                  <form method="POST">
-                  <div class = "form-group">
-                  <label>Usuario:</label>
-                  <input type="text" class="form-control" name="usuario" placeholder="Ingresa tu usuario">
-                  <small id="usuarioHelp" class="form-text text-muted">No compartir usuario ni contraseña.</small>
-                  </div>
-
-                  <div class="form-group">
-                  <label>Contraseña:</label>
-                  <input type="password" class="form-control" name="contrasenia" placeholder="Ingresa tu contraseña">
-                  </div>
-
-            
-                  <button type="submit" class="btn btn-primary">Ingresar</button>
-                  </form>
-                  
-                  
-              </div>
-              
-          </div>   
-
-          </div>
-          
-      </div>
-  </div>
-   
- 
