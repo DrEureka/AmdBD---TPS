@@ -21,7 +21,7 @@
                <a class="nav-link" href="Design.php">Diseños</a>
            </li>
            <li class="nav-item">
-               <a class="nav-link" href="Redes.php">Redes sociales</a>
+               <a class="nav-link" href="Planes.php">Planes</a>
            </li>
            <li class="nav-item">
                <a class="nav-link" href="./administrador/index.php">Login CRUD</a>
