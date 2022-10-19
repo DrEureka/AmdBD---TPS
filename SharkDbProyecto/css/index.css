@@ -1,0 +1,37 @@
+body{
+    background:  url("./../img/background.jpg");;
+}
+
+.video-index{
+    max-width: 100vw;
+    height: 90vh;
+}
+.video-index iframe{
+   width: 100%;
+   height: 100%;
+}
+
+.title-index{
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 10px;
+    position: relative;
+    bottom: 150px;
+}
+.title-index h1{
+    color: white !important;
+}
+.section-index{
+    background-color: rgba(0,0,0,0.6);
+    padding-top: 20px;
+    text-align: center;
+    max-width: 100vw;
+    height: 100vh;
+}
+.section-index img{
+    width: 100%;
+    height: 100%;
+}
+.section-index h1{
+    color: white !important;
+
+}
