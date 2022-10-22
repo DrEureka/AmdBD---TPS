@@ -1,13 +1,11 @@
 <?php
 session_start();
-if(!isset($_SESSION['usuario'])){
+if (!isset($_SESSION['usuario'])) {
 
   header("Location:../Index.php");
-   
-}
-else{
-  if($_SESSION['usuario']=="ok"){
-    $nombreUsuario=$_SESSION["nombreUsuario"];
+} else {
+  if ($_SESSION['usuario'] == "ok") {
+    $nombreUsuario = $_SESSION["nombreUsuario"];
   }
 }
 ?>
@@ -25,18 +23,23 @@ else{
 </head>
 
 <body>
-  <?php $url = "http://" . $_SERVER['HTTP_HOST']. "" ?>
-
+  <?php $url = "http://" . $_SERVER['HTTP_HOST'] . "" ?>
+  <div class="container-md"
+  >
   <nav class="navbar navbar-expand navbar-light bg-light">
     <div class="nav navbar-nav">
       <a class="nav-item nav-link active" href="#">Administrador <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="<?php echo $url; ?>/administrador/Inicio.php">Inicio</a>
-      <a class="nav-item nav-link" href="<?php echo $url; ?>/administrador/seccion/AdmDesign.php">Administrador de diseños</a>
+      <a class="nav-item nav-link" href="<?php echo $url; ?>/administrador/seccion/AdmDesign.php">Administrador de entrenamientos</a>
+        <a class="nav-item nav-link" href="<?php echo $url; ?>/administrador/seccion/AdmClientes.php">Administrador de clientes</a>
       <a class="nav-item nav-link" href="<?php echo $url; ?>">Ver sitio</a>
       <a class="nav-item nav-link" href="<?php echo $url; ?>/administrador/seccion/loginOut.php">Cerrar sesion</a>
     </div>
   </nav>
+  </div>
+  <div class="container-md" style="padding-left: 20px;
+       padding-right: 20px;"
 
-  <div class="container">
+  >
     <br>
     <div class="row">
